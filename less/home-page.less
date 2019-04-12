@@ -5,17 +5,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    border-top: 2px dashed rgb(160, 155, 155);
 
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+      .intro;
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
+      .intro;
 
       img {
         border-radius: 10px;
@@ -30,11 +33,14 @@
     .text-content {
       padding-left: 1%;
       padding-right: 0;
+      .intro;
+
     }
 
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+      .intro;
     }
   }
 
@@ -59,3 +65,9 @@
     }
   }
 }// home
+.intro {
+  margin-top: 25px;
+}
+section .intro {
+  border-bottom: 2px dashed @navigation-border;
+}
